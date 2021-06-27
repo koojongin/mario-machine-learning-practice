@@ -1,32 +1,12 @@
 import gym_super_mario_bros
+from gym_super_mario_bros.actions import SIMPLE_MOVEMENT
+from nes_py.wrappers import JoypadSpace
 
-MARIO_ENVS = [
-    "SuperMarioBros-v0",  # SMB standard
-    "SuperMarioBros-v1",  # SMB downsample
-    "SuperMarioBros-v2",  # SMB pixel
-    "SuperMarioBros-v3",  # SMB rectangle
-    "SuperMarioBros2-v0",  # SMB2 standard
-    "SuperMarioBros2-v1",  # SMB2 downsample
-]
+from services.util_service import RomVersion, get_version
 
-# SuperMarioBros-<world>-<stage>-v<version>
+default_version = get_version(world=1, stage=1, version=RomVersion.STANDARD)
 
+env = gym_super_mario_bros.make(default_version)
+env = JoypadSpace(env, SIMPLE_MOVEMENT)
 
-def get_version(world: int, stage: int, version: int):
-    """
-    :param int world: <world> is a number in {1, 2, 3, 4, 5, 6, 7, 8} indicating the world.
-    :param int stage: <stage> is a number in {1, 2, 3, 4} indicating the stage within a world.
-    :param int version: <version> is a number in {0, 1, 2, 3} specifying the ROM mode to use.
-        0: standard ROM
-        1: downsampled ROM
-        2: pixel ROM
-        3: rectangle ROM
-    :return:
-    """
-    return f"SuperMarioBros-{world}-{stage}-v{version}"
-
-
-env = gym_super_mario_bros.make("SuperMarioBros-v0")
-
-env.reset()
-env.render()
+(width, height, channel_size) = env.observation_space.shape
