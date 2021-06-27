@@ -27,7 +27,7 @@
     <li>
       <div>Getting Started</div>
       <ul>
-        <li><a href="#Setup-&-Built-With">Setup & Built With</a></li>
+        <li><a href="#Setup--Built-With">Setup & Built With</a></li>
       </ul>
     </li>
     <li>
