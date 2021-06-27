@@ -22,12 +22,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#프로젝트에 대해서">About The Project</a>
+      <a href="#프로젝트에-대해서">About The Project</a>
     </li>
     <li>
       <div>Getting Started</div>
       <ul>
-        <li><a href="#Setup & Built With">Setup & Built With</a></li>
+        <li><a href="#Setup-&-Built With">Setup & Built With</a></li>
       </ul>
     </li>
     <li>
