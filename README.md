@@ -57,18 +57,18 @@ $ source .venv/bin/activate
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/koojongin/mario-machine-learning-practice.svg?style=for-the-badge
 
 [contributors-url]: https://github.com/koojongin/mario-machine-learning-practice/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/koojongin/mario-machine-learning-practice.svg?style=for-the-badge
 
 [forks-url]: https://github.com/koojongin/mario-machine-learning-practice/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/koojongin/mario-machine-learning-practice.svg?style=for-the-badge
 
 [stars-url]: https://github.com/koojongin/mario-machine-learning-practice/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/koojongin/mario-machine-learning-practice.svg?style=for-the-badge
 
 [issues-url]: https://github.com/koojongin/mario-machine-learning-practice/issues
