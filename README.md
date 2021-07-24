@@ -45,7 +45,10 @@
 ## Setup & Built With
 
 ```
+#1
 $ virtualenv .venv
+#2
+$ virtualenv .venv --python=python3.7
 $ source .venv/bin/activate
 (.venv) pip install -r requirement.txt 
 ```
