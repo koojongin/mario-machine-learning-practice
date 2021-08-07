@@ -56,7 +56,8 @@ $ source .venv/bin/activate
 ## 참고자료
 
 [강화학습과 MDP(Markov Decision Process)의 개념](http://tcpschool.com/deep2018/deep2018_machine_reinforcement)  
-[참고한 예제](https://wonseokjung.github.io/Supermario1/)
+[참고한 예제1](https://wonseokjung.github.io/Supermario1/)
+[참고한 예제2](https://medium.com/@wonseokjung_95449/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5%EC%9C%BC%EB%A1%9C-%EB%98%91%EB%98%91%ED%95%9C-%EC%8A%88%ED%8D%BC%EB%A7%88%EB%A6%AC%EC%98%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0-87c423f46b05)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
